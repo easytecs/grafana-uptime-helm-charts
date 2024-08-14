@@ -44,6 +44,9 @@ spec:
           #     port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
+          envFrom:
+          - configMapRef:
+              name: grafana-uptime-params
           
           volumeMounts:
             - name: payload-yaml
