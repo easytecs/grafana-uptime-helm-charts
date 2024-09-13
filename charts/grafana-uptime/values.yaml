@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: easytecs/grafana-uptime
   pullPolicy: IfNotPresent
-  tag: prod-c48dcec
+  tag: prod-5b793e5
 
 listServicesToCheck: []
 sleepTimeSecond: 15
