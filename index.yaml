@@ -3,6 +3,20 @@ entries:
   grafana-uptime:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-13T15:53:41.462959608Z"
+    dependencies:
+    - name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 25.25.0
+    description: A Helm chart for Kubernetes
+    digest: d6335bba822cf66cebbf295116a0505adf729cefc0d5f74b34ae26711d298320
+    name: grafana-uptime
+    type: application
+    urls:
+    - https://github.com/easytecs/helm-charts/releases/download/grafana-uptime-0.4.0/grafana-uptime-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-08-14T14:11:55.937048732Z"
     dependencies:
     - name: prometheus
@@ -43,4 +57,4 @@ entries:
     urls:
     - https://github.com/easytecs/helm-charts/releases/download/grafana-uptime-0.3.2/grafana-uptime-0.3.2.tgz
     version: 0.3.2
-generated: "2024-08-14T14:11:55.937060103Z"
+generated: "2024-09-13T15:53:41.462980968Z"
